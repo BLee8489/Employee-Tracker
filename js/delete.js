@@ -21,7 +21,7 @@ module.exports = {
 				},
 			])
 			.then((answers) => {
-				// Storing id's for later use
+				// Store id's for later use
 				let employeeID = answers.selectEmp.split(" ");
 				let eID = employeeID[0];
 

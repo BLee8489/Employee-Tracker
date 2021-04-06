@@ -22,7 +22,7 @@ const connection = mysql.createConnection({
 connection.connect((err) => {
 	if (err) throw err;
 	console.log(
-		// Banner art for start of app
+		// Banner
 		figlet.textSync("Employee Manager", {
 			font: "Standard",
 			horizontalLayout: "default",
