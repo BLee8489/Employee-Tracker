@@ -60,7 +60,7 @@ module.exports = {
 			},
 		])
 			.then((answers) => {
-				// Storing for later use
+				
 				let fN = answers.firstName;
 				let lN = answers.lastName;
 				let roleTitle = answers.roleId.split(" ");
